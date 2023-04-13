@@ -7583,7 +7583,6 @@ body {
 .bg-hero {
   background-color: #000000;
   background-image: url("/img/bg1.jpg");
-  /* background by SVGBackgrounds.com */
   background-attachment: fixed;
   background-size: cover;
   position: relative; }
@@ -7977,3 +7976,63 @@ footer h5 {
   color: black;
   background-color: white;
 }
+
+.bg-money {
+  background-color: #000000;
+  background-image: url("/img/bg2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+  .bg-money:before {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7); }
+  .bg-money .container {
+    z-index: 2;
+    position: relative; }
+
+.bg-reviews {
+  background-color: #000000;
+  background-image: url("/img/bg3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+  .bg-reviews:before {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7); }
+  .bg-reviews .container {
+    z-index: 2;
+    position: relative; }
+
+.bg-hand {
+  background-color: #000000;
+  background-image: url("/img/bg4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; }
+  .bg-hand:before {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7); }
+  .bg-hand .container {
+    z-index: 2;
+    position: relative; }
